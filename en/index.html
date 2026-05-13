@@ -301,6 +301,7 @@
                 <li>To provide the functionality of our Apps (recording, displaying, and aggregating data entered by users)</li>
                 <li>To deliver and optimize advertisements (via Google AdMob)</li>
                 <li>To analyze and improve app stability and quality (via Firebase Crashlytics)</li>
+                <li>To aggregate and analyze usage data and improve app features (via Firebase Analytics)</li>
                 <li>To respond to inquiries</li>
                 <li>To notify users of changes to this Policy and other communications</li>
             </ul>
@@ -328,6 +329,15 @@
                 <li><strong>Recipient Country:</strong> United States of America</li>
                 <li><strong>Information Transmitted:</strong> Stack traces upon crash, device information, app identifier, Firebase Installation ID, app state</li>
                 <li><strong>Purpose of Transmission:</strong> Analysis and improvement of app stability and quality</li>
+                <li><strong>Privacy Policy:</strong> <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">https://firebase.google.com/support/privacy</a></li>
+            </ul>
+
+            <h3>4-3. Firebase Analytics</h3>
+            <ul>
+                <li><strong>Provider:</strong> Google LLC</li>
+                <li><strong>Recipient Country:</strong> United States of America</li>
+                <li><strong>Information Transmitted:</strong> App usage events (screen transitions, session start/end, first launch, app update, etc.), device information (model, OS version, language, inferred country), Firebase Installation ID / App Instance ID, Advertising ID (AAID; only when UMP consent is obtained), app version</li>
+                <li><strong>Purpose of Transmission:</strong> Aggregation and analysis of usage data, improvement of app features, and integration with AdMob ad delivery optimization</li>
                 <li><strong>Privacy Policy:</strong> <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">https://firebase.google.com/support/privacy</a></li>
             </ul>
 
@@ -364,7 +374,7 @@
             <h2>8. Data Storage and Retention Period</h2>
             <ul>
                 <li><strong>On-device data:</strong> Completely deleted when the user uninstalls the app. We do not have any means to back up or recover such data.</li>
-                <li><strong>Data via Google AdMob / Firebase Crashlytics:</strong> Retained in accordance with Google LLC's data retention policies. Please refer to Google's privacy policy for details.</li>
+                <li><strong>Data via Google AdMob / Firebase Crashlytics / Firebase Analytics:</strong> Retained in accordance with Google LLC's data retention policies. Please refer to Google's privacy policy for details.</li>
                 <li><strong>Inquiry records:</strong> We delete received emails approximately one year after the inquiry has been resolved.</li>
             </ul>
         </section>
@@ -423,7 +433,7 @@
             <p>To exercise these rights, please contact <a href="mailto:contact@akiappsdev.com">contact@akiappsdev.com</a>.</p>
 
             <h3>10-4. Transfers to Third Countries</h3>
-            <p>Google AdMob and Firebase Crashlytics used in our Apps process data in the United States of America. Google LLC has adopted the Standard Contractual Clauses (SCC) approved by the European Commission, and such transfers to third countries are carried out on the basis of these SCCs. For details, please refer to <a href="https://policies.google.com/privacy/frameworks" target="_blank" rel="noopener">Google's frameworks page</a>.</p>
+            <p>Google AdMob, Firebase Crashlytics, and Firebase Analytics used in our Apps process data in the United States of America. Google LLC has adopted the Standard Contractual Clauses (SCC) approved by the European Commission, and such transfers to third countries are carried out on the basis of these SCCs. For details, please refer to <a href="https://policies.google.com/privacy/frameworks" target="_blank" rel="noopener">Google's frameworks page</a>.</p>
 
             <h3>10-5. Lodging a Complaint (Supervisory Authority)</h3>
             <p>Users in the EU/EEA and the UK have the right to lodge a complaint with the data protection authority (DPA) in their country of residence. A list of national DPAs is available at the <a href="https://edpb.europa.eu/about-edpb/about-edpb/members_en" target="_blank" rel="noopener">European Data Protection Board members page</a>.</p>
@@ -496,6 +506,7 @@
         <section>
             <h2>16. Revision History</h2>
             <ul>
+                <li><strong>2026-05-13:</strong> Added a dedicated Section 4-3 for Firebase Analytics (information transmitted, purpose of transmission, and privacy policy link), aligning with the use of Firebase Analytics in Subloop / TrashAlert / Nondakke etc. and with the Data Safety declaration (collection of app interaction counts). Also added Firebase Analytics to Section 3 (Purpose of Use), Section 8 (Data Retention), and Section 10-4 (Transfers to Third Countries).</li>
                 <li><strong>2026-05-12 (2nd revision):</strong> Added Kakikata (あいうえおかきかた) to Section 2-1. Clarified that Kakikata does not display ads, does not communicate over the network, and stores data solely on-device (DataStore).</li>
                 <li><strong>2026-05-12:</strong> Added TrashAlert (ゴミ出しアラート) and Nondakke (のんだっけ?) to Section 2-1. Renamed SubFlow to its rebranded name Subloop. Added Section 6 (Sensitive Personal Information) handling policy for Nondakke's medication reminder feature (medication name, dosing time, intake records, etc.), clarifying on-device storage, no third-party transmission, and that the app is not a substitute for medical advice.</li>
                 <li><strong>2026-05-02:</strong> Generalized scope to "all Android apps published on Google Play" and simplified app enumeration. Aligned with the launch of VoiceCalc as the sole published app: removed app-specific sections that did not apply (4-3 SpeechRecognizer, 4-4 Firebase Auth/Firestore, 4-5 Play Billing, the per-app sensitive-information enumeration, and the per-app children's-app examples). Same day, added SubFlow to Section 2-1. Added Section 12-bis (Trademarks and Third-Party Names).</li>

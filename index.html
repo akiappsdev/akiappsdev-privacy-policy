@@ -301,6 +301,7 @@
                 <li>本アプリの機能提供（利用者が入力したデータの記録・表示・集計）</li>
                 <li>広告の配信および最適化（Google AdMob 経由）</li>
                 <li>アプリの不具合解析・品質改善（Firebase Crashlytics 経由）</li>
+                <li>利用状況の集計・分析、アプリ機能改善（Firebase Analytics 経由）</li>
                 <li>お問い合わせへの対応</li>
                 <li>本ポリシーの変更通知等の連絡</li>
             </ul>
@@ -328,6 +329,15 @@
                 <li><strong>送信先国:</strong> アメリカ合衆国</li>
                 <li><strong>送信される情報:</strong> クラッシュ時のスタックトレース、デバイス情報、アプリ識別子、Firebase インストール ID、アプリ状態</li>
                 <li><strong>送信目的:</strong> アプリの不具合解析・品質改善</li>
+                <li><strong>プライバシーポリシー:</strong> <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">https://firebase.google.com/support/privacy</a></li>
+            </ul>
+
+            <h3>4-3. Firebase Analytics</h3>
+            <ul>
+                <li><strong>提供事業者:</strong> Google LLC</li>
+                <li><strong>送信先国:</strong> アメリカ合衆国</li>
+                <li><strong>送信される情報:</strong> アプリ利用イベント（画面遷移、セッション開始／終了、初回起動、アプリ更新等）、デバイス情報（機種・OS バージョン・言語・推定国）、Firebase インストール ID／アプリインスタンス ID、広告 ID（AAID、UMP 同意取得時のみ）、アプリのバージョン</li>
+                <li><strong>送信目的:</strong> 利用状況の集計・分析、アプリ機能改善、AdMob 広告配信の最適化との連携</li>
                 <li><strong>プライバシーポリシー:</strong> <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">https://firebase.google.com/support/privacy</a></li>
             </ul>
 
@@ -364,7 +374,7 @@
             <h2>8. データの保存・保持期間</h2>
             <ul>
                 <li><strong>端末内データ:</strong> 利用者が本アプリをアンインストールした時点で完全に削除されます。当方はこれらのデータをバックアップ・回復する手段を有しません。</li>
-                <li><strong>Google AdMob / Firebase Crashlytics 経由のデータ:</strong> Google LLC のデータ保持ポリシーに従って保管されます。詳細は Google プライバシーポリシーをご参照ください。</li>
+                <li><strong>Google AdMob / Firebase Crashlytics / Firebase Analytics 経由のデータ:</strong> Google LLC のデータ保持ポリシーに従って保管されます。詳細は Google プライバシーポリシーをご参照ください。</li>
                 <li><strong>お問い合わせ記録:</strong> 当方は受信したメールを、対応完了後 1 年を目安に削除します。</li>
             </ul>
         </section>
@@ -423,7 +433,7 @@
             <p>権利行使は <a href="mailto:contact@akiappsdev.com">contact@akiappsdev.com</a> までご連絡ください。</p>
 
             <h3>10-4. 第三国への移転</h3>
-            <p>本アプリで利用する Google AdMob および Firebase Crashlytics は、いずれもアメリカ合衆国においてデータ処理が行われます。Google LLC は欧州委員会が承認した標準契約条項（Standard Contractual Clauses, SCC）を採用しており、本第三国移転は当該 SCC を法的根拠として実施されます。詳細は <a href="https://policies.google.com/privacy/frameworks" target="_blank" rel="noopener">Google のフレームワークページ</a>をご参照ください。</p>
+            <p>本アプリで利用する Google AdMob、Firebase Crashlytics および Firebase Analytics は、いずれもアメリカ合衆国においてデータ処理が行われます。Google LLC は欧州委員会が承認した標準契約条項（Standard Contractual Clauses, SCC）を採用しており、本第三国移転は当該 SCC を法的根拠として実施されます。詳細は <a href="https://policies.google.com/privacy/frameworks" target="_blank" rel="noopener">Google のフレームワークページ</a>をご参照ください。</p>
 
             <h3>10-5. 苦情申立先（監督機関）</h3>
             <p>EU/EEA・英国の利用者は、お住まいの国のデータ保護監督機関（DPA）に苦情を申し立てる権利を有します。各国 DPA の一覧は <a href="https://edpb.europa.eu/about-edpb/about-edpb/members_en" target="_blank" rel="noopener">European Data Protection Board のメンバー一覧</a>をご参照ください。</p>
@@ -496,6 +506,7 @@
         <section>
             <h2>16. 改定履歴</h2>
             <ul>
+                <li><strong>2026-05-13:</strong> 第 4 項に 4-3 Firebase Analytics 専用節を新設（送信情報・送信目的・プライバシーポリシーリンク）。Subloop / TrashAlert / Nondakke 等の Firebase Analytics 利用とデータセーフティ申告（アプリのインタラクション数収集）との整合を確保。併せて、第 3 項（利用目的）、第 8 項（データ保持）、第 10-4 項（第三国移転）に Firebase Analytics を追記。</li>
                 <li><strong>2026-05-12（2回目）:</strong> 第 2-1 項に Kakikata（あいうえおかきかた）を追加。Kakikata は広告非搭載・ネットワーク通信なし・データは端末内（DataStore）のみで取り扱う旨を明示。</li>
                 <li><strong>2026-05-12:</strong> 第 2-1 項に TrashAlert（ゴミ出しアラート）および Nondakke（のんだっけ?）を追加。SubFlow をリブランド後の名称 Subloop に更新。第 6 項（要配慮個人情報）に Nondakke 服薬リマインダー機能における服薬情報（薬名・服用時刻・服用記録等）の取扱方針を追記（端末内保管、第三者送信なし、医療行為の代替ではない旨を明示）。</li>
                 <li><strong>2026-05-02:</strong> 適用範囲を「Google Play で公開する Android アプリ全般」と一般化し、アプリ列挙を簡素化。VoiceCalc 単独公開に合わせ、未公開アプリ向けの個別条項（4-3 SpeechRecognizer / 4-4 Firebase Auth・Firestore / 4-5 Play Billing、要配慮個人情報の app-specific 列挙、児童保護の app-specific 例示等）を削除。同日、第 2-1 項に SubFlow（サブスク管理）を追加。第 12-bis 項（商標・サードパーティ名称）を新設。</li>
