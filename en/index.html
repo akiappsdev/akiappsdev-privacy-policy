@@ -219,7 +219,7 @@
         <header>
             <h1>Privacy Policy</h1>
             <p>AkiAppsDev</p>
-            <p>Effective Date: May 13, 2026</p>
+            <p>Effective Date: May 16, 2026</p>
         </header>
 
         <!-- 1. Introduction -->
@@ -278,9 +278,16 @@
                         <td>On-device (DataStore)</td>
                         <td>None (no ads, no network communication)</td>
                     </tr>
+                    <tr>
+                        <td>Wakelit (screen-on manager)</td>
+                        <td>Watched-app settings, screen-on statistics (duration, session count), display preferences (theme, light/dark, etc., as selected by the user)</td>
+                        <td>On-device (Room database, DataStore)</td>
+                        <td>Ad SDK only</td>
+                    </tr>
                 </tbody>
             </table>
             <p>This table will be updated as new apps are published.</p>
+            <p><strong>Foreground-app detection in Wakelit:</strong> Wakelit uses Android's <code>PACKAGE_USAGE_STATS</code> permission to detect when a watched app is currently in the foreground so it can keep the screen on. The foreground package name is referenced on-device only and is never transmitted to our servers or to third parties. Browsing history and content viewed are not collected.</p>
 
             <h3>2-2. Information Commonly Collected (via Ad SDK)</h3>
             <p>For our Apps that display advertisements, the Google AdMob SDK collects and transmits the following information:</p>
@@ -504,7 +511,7 @@
 
 
         <footer>
-            <p>Effective Date: 2026-05-13</p>
+            <p>Effective Date: 2026-05-16</p>
             <p>&copy; 2026 AkiAppsDev</p>
         </footer>
     </div>
